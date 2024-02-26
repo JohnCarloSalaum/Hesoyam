@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 15;
     padding: 0;
     background-color: #e6f7ff;
 }
@@ -33,10 +33,25 @@ p {
 }
 
 .biodata p {
-    margin: 5px 0;
+    margin: 15px 0;
 }
 
 .reference {
     font-style: italic;
     color: #888;
+}
+
+.profile-picture {
+    width: 200px; 
+    height: 200px; 
+    border: 5px solid #ccc; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    padding: 10px; 
+}
+
+.profile-picture img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
 }
