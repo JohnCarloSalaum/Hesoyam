@@ -42,7 +42,6 @@ p {
 }
 
 .profile-picture {
-    
     width: 200px; 
     height: 200px; 
     border: 5px solid #ccc; 
@@ -52,7 +51,6 @@ p {
 }
 
 .profile-picture img {
-    
     width: 100%; 
     height: 100%; 
     object-fit: cover; 
